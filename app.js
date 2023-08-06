@@ -51,8 +51,9 @@ function check(idx){
         }
     }else{
         h2.innerText="Game over Try Again";
+        gameover.play();
         if(score>highscore){
-            gameover.play();
+            
             highscore=score;
             h3.innerText=`New Highscore ${highscore}`;
         }
