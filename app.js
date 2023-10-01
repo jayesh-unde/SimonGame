@@ -7,7 +7,7 @@ let myAudio = document.querySelector('#audio');
 let gameover = document.querySelector('#gover');
 
 let btns =  ["red","green","blue","yellow"];
-// these are the changes done for to see change in github repo.
+// these are the changes done for to see change in github repository.
 let h2 = document.querySelector("h2");
 let h3 = document.querySelector("h3");
 h3.innerText = `highscore: ${highscore} `;
